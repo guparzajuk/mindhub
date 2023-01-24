@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .caja{
+    position: relative;
+    display: inline-block;
+    background-color: aqua;
+    height: 90%;
+ }
+
+h1{
+    position: absolute;
+    top: 10px;
+    left: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5rem;
+    color: darkgoldenrod;
+ }
