@@ -62,7 +62,6 @@ nav{
     width: 300px;
     margin: 10px 200px 10px 5px;
 }
-
 p{   
 font-size: 4em;
 margin: 10px;
@@ -72,7 +71,7 @@ h3{
     margin: 50px;
 }
 .ancho{
-    width: 500px;
+    width: 600px;
 }
 aside, main{
     display: inline-block;
