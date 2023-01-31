@@ -20,7 +20,7 @@ h1 {
     position: absolute;
     top: 50px;
     margin-left: 10px;
-    font-size: 3rem;
+    font-size: 5rem;
     color: white;
     text-shadow: 2px 2px 4px black;
 }
@@ -31,6 +31,7 @@ h1 {
 
 .container-logo {
     position: relative;
+    width: 100vw;
 }
 
 h2 {
@@ -64,16 +65,18 @@ aside{
     position: absolute;
     top: 50px;
     left: 5px;
+    width: 40vw;
 }
 main{
 position: absolute;
     top: 50px;
     left: 250px;
+    width: 60vw;
 }
 nav{
     display: flex;
     flex-direction: column;
-}
+  }
 nav>a{
     text-decoration: none;
     font-size: 2rem;
@@ -84,11 +87,11 @@ ul>li{
     }
 li>p{
     font-size: 2rem;
-    width: 90%;
+    width: 90%;n>p,
 }
 main>p{
     font-size: 2rem;
-    width: 90%;
+  
 }
 main>p>a{
     text-decoration: none;
@@ -96,4 +99,12 @@ main>p>a{
 }
 h3{
     font-size: 3rem;
+}
+main>p.schedule{
+   
+    font-size: 2rem;
+    font-style: italic;
+}
+main>p.aclaracion{
+text-decoration-line: underline;
 }
