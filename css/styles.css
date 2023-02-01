@@ -9,6 +9,7 @@ html {
 }
 
 body {
+    width: 90vw;
     margin: 20px;
 }
 
@@ -58,53 +59,111 @@ h2 {
     margin: 5px;
     z-index: 12;
 }
-.aside-main{
+
+.aside-main {
     position: relative;
 }
-aside{
+
+aside {
     position: absolute;
     top: 50px;
     left: 5px;
-    width: 40vw;
+    width: 400px;
 }
-main{
-position: absolute;
+
+main {
+    position: absolute;
     top: 50px;
-    left: 250px;
-    width: 60vw;
+    left: 300px;
+
 }
-nav{
+
+nav {
     display: flex;
     flex-direction: column;
-  }
-nav>a{
+}
+
+nav>a {
     text-decoration: none;
     font-size: 2rem;
     color: black;
 }
-ul>li{
+
+ul>li {
     list-style: none;
-    }
-li>p{
-    font-size: 2rem;
-    width: 90%;n>p,
 }
-main>p{
+
+li>p {
     font-size: 2rem;
-  
+    width: 90%;
 }
-main>p>a{
+
+main>p {
+    font-size: 2rem;
+}
+
+main>p>a {
     text-decoration: none;
     color: black;
 }
-h3{
+
+h3 {
     font-size: 3rem;
 }
-main>p.schedule{
-   
+
+main>p.schedule {
+
     font-size: 2rem;
     font-style: italic;
 }
-main>p.aclaracion{
-text-decoration-line: underline;
+
+main>p.subrayado {
+    text-decoration-line: underline;
+}
+
+table {
+    width: 50vw;
+}
+
+thead {
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+thead th {
+    font-family: Arial, sans-serif;
+    border-top: 1px #000033 solid;
+    border-bottom: 1px #000033 solid;
+    font-size: 2rem;
+}
+
+tbody {
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+tbody td {
+    border-bottom: 1px #000033 solid;
+    padding-left: 25px;
+}
+
+div .seccion {
+    width: 70vw;
+    font-size: 2rem;
+}
+
+div>.schedule-block {
+    display: inline;
+    margin-right: 280px;
+}
+
+ul>li>.rules {
+    list-style-type:circle;
+    list-style-position: inside;
+}
+
+ul,
+ol {
+    margin-bottom: 40px;
 }
