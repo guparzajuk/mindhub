@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    width: 90vw;
+    /* width: 90vw; */
     margin: 20px;
 }
 
@@ -32,7 +32,7 @@ h1 {
 
 .container-logo {
     position: relative;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 h2 {
@@ -60,22 +60,24 @@ h2 {
     z-index: 12;
 }
 
+header {
+    margin-bottom: 50px;
+}
+
 .aside-main {
-    position: relative;
+    display: flex;
+    justify-content: left;
 }
 
 aside {
-    position: absolute;
-    top: 50px;
-    left: 5px;
-    width: 400px;
+    margin-right: 100px;
+    width: 250px;
 }
 
 main {
-    position: absolute;
-    top: 50px;
-    left: 300px;
-
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
 }
 
 nav {
@@ -85,44 +87,36 @@ nav {
 
 nav>a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: black;
 }
 
-ul>li {
+.seccion1 li {
     list-style: none;
 }
 
-li>p {
-    font-size: 2rem;
-    width: 90%;
-}
-
-main>p {
-    font-size: 2rem;
-}
-
-main>p>a {
+.seccion1 a {
     text-decoration: none;
     color: black;
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 main>p.schedule {
-
+    display: inline;
     font-size: 2rem;
     font-style: italic;
 }
 
 main>p.subrayado {
+    display: inline;
     text-decoration-line: underline;
 }
 
 table {
-    width: 50vw;
+    width:800px;
 }
 
 thead {
@@ -148,22 +142,19 @@ tbody td {
     padding-left: 25px;
 }
 
-div .seccion {
-    width: 70vw;
+div .seccion1 {
+    width: 60vw;
+}
+div .seccion2 {
+    font-size: 2rem;
+    width: 60vw;
+}
+.seccion1 p{
     font-size: 2rem;
 }
 
 div>.schedule-block {
     display: inline;
-    margin-right: 280px;
-}
-
-ul>li>.rules {
-    list-style-type:circle;
-    list-style-position: inside;
-}
-
-ul,
-ol {
-    margin-bottom: 40px;
+    margin-right:50px;
+  
 }
