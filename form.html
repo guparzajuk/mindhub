@@ -29,7 +29,7 @@
       </figure>
     </header>
     <div class="aside-main">
-     <aside>
+      <aside>
         <nav>
           <a href="./">Home</a>
           <a href="./gameInformation.html">Game Information</a>
@@ -41,20 +41,40 @@
       </aside>
       <main>
         <div class="seccion1">
-          <ul>
-            <li>
-              <h3>August 4</h3>
-              <p>MDSL Fundraiser</p>
-            </li>
-            <li>
-              <h3>August 16</h3>
-              <p>Season Kick-off: Meet The Teams</p>
-            </li>
-            <li>
-              <h3>September 1</h3>
-              <p>First Game of the Season (Check Game Schedule for details)</p>
-            </li>
-          </ul>
+          <form action="./showdata.html" method="get">
+            <fieldset>
+              <legend>
+                <span>Registration Form</span>
+              </legend>
+              <label
+                ><span>Player's First Name:</span
+                ><input type="text" id="Name" name="Name" /> </label
+              ><label
+                ><span>Name:</span><input type="text" id="Name" name="Name"
+              /></label>
+              <label
+                ><span>Street Address:</span
+                ><input type="text" id="Name" name="Name"
+              /></label>
+              <label
+                ><span>City:</span><input type="text" id="Name" name="Name"
+              /></label>
+              <label
+                ><span>Zip Code:</span><input type="text" id="Name" name="Name"
+              /></label>
+              <label
+                ><span>Birth Date:</span
+                ><input
+                  type="date"
+                  id="start"
+                  name="trip-start"
+                  value="2018-07-22"
+                  min="2018-01-01"
+                  max="2018-12-31"
+                /></label
+              >
+            </fieldset>
+          </form>
         </div>
       </main>
     </div>
