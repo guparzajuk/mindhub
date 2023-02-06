@@ -97,7 +97,7 @@ nav>a {
 
 .seccion1 a {
     text-decoration: none;
-    color: black;git ch
+    color: black;
 }
 
 h3 {
@@ -167,3 +167,10 @@ div>.schedule-block {
   label {
       margin: 0.4rem 0;
   }
+
+
+  /* @media only screen and (max-width: 600) {
+      body {
+          background-color: lightblue;
+      }
+  } */
