@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-html {
+.container {
+    display: flex;
+    flex-direction: column;
     font-family: "comic sans", cursive;
 }
 
 body {
-    /* width: 90vw; */
     margin: 20px;
 }
 
@@ -32,7 +33,6 @@ h1 {
 
 .container-logo {
     position: relative;
-    /* width: 100vw; */
 }
 
 h2 {
@@ -116,7 +116,7 @@ main>p.subrayado {
 }
 
 table {
-    width:800px;
+    width: 800px;
 }
 
 thead {
@@ -145,32 +145,61 @@ tbody td {
 div .seccion1 {
     width: 60vw;
 }
+
 div .seccion2 {
     font-size: 2rem;
     width: 60vw;
 }
-.seccion1 p{
+
+.seccion1 p {
     font-size: 2rem;
 }
 
 div>.schedule-block {
     display: inline;
-    margin-right:50px;
+    margin-right: 50px;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+}
+
+.maps{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+iframe{
+    margin: 10px;
+}
+
+.player{
+    display: flex;
+   flex-wrap: wrap; 
+   justify-content: space-around;
   }
+label {
+    margin: 15px;
+    /* padding: 5px; */
+    font-family: "comic sans", cursive;
+    font-size: 1.5rem;  
+}
+div>label>span{
+    margin-right: 5px;
+    align-items: ;
+}
+.gender{
+    align-content: center;
+}
 
-  label {
-      display: block;
-      font: 1rem 'Fira Sans', sans-serif;
-  }
-
-  input,
-  label {
-      margin: 0.4rem 0;
-  }
-
-
-  /* @media only screen and (max-width: 600) {
-      body {
-          background-color: lightblue;
-      }
-  } */
+/* @media only screen and (max-width: 600) {
+    body {
+        background-color: lightblue;
+    }
+} */
